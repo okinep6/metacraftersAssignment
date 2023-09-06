@@ -15,7 +15,7 @@ pragma solidity 0.8.19;
        to the amount that is supposed to be burned.
 */
 
-contract BERToken {
+contract Token {
 
                    // public variables 
                   string public tokenName = 'jollydollarcoin';
