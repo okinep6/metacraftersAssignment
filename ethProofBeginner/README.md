@@ -1,6 +1,6 @@
 # JOLLYDOLLARCOIN
 
-A simple blockchain currency with functionality for creating tokens and destroying tokens
+A simple blockchain currency with functionality for minting (creating tokens) and burning (destroying tokens)
 
 ## Description
 
