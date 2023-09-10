@@ -33,8 +33,8 @@ function getTotalSupply() {
   return nftCollection.length;
 }
 
-mintNFT("NFT 1", "Level 1", "colour1.png");
-mintNFT("NFT 2", "Level 2", "colour2.png");
+mintNFT("NFT 1", "Level 9", "Blue", "ice");
+mintNFT("NFT 2", "Level 10", "Pink", "Silver");
 
 console.log("List of NFTs:");
 listNFTs();
