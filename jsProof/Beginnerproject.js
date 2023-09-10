@@ -48,3 +48,6 @@ mintNFT("NFT 2", "Level 10", "Pink", "Silver");
 // call your functions below this line
 console.log("List of NFTs:");
 listNFTs();
+
+const totalSupply = getTotalSupply();
+console.log("Total NFTs Minted: " + totalSupply);
