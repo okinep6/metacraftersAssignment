@@ -14,12 +14,11 @@ const nftCollection = [];
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
-function mintNFT(_name, _level, _colour, _bling) {
+function mintNFT(_name, _level, _colour) {
   const newNFT = {
     name: _name,
     level: _level,
     colour: _colour
-    chain: _chain
   };
   nftCollection.push(newNFT);
 }
@@ -31,7 +30,6 @@ function listNFTs() {
     console.log("Name: " + nft.name);
     console.log("Level: " + nft.level);
     console.log("Colour: " + nft.colour);
-     console.log("Bling: " + nft.bling);
     console.log("-----------------------");
   }
 }
@@ -42,8 +40,8 @@ function getTotalSupply() {
   return nftCollection.length;
 }
 
-mintNFT("NFT 1", "Level 9", "Blue", "Ice");
-mintNFT("NFT 2", "Level 10", "Pink", "Silver");
+mintNFT("Goku", "Level 9", "Blue");
+mintNFT("Aang", "Level 10", "Pink");
 
 // call your functions below this line
 console.log("List of NFTs:");
