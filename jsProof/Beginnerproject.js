@@ -9,7 +9,7 @@ Assessment Requirements
 */
 
 // create a variable to hold your NFT's
-const nftCollection = [];
+const nftMyAnime = [];
 
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
@@ -20,13 +20,13 @@ function mintNFT(_name, _level, _colour) {
     level: _level,
     colour: _colour
   };
-  nftCollection.push(newNFT);
+  nftMyAnime.push(newNFT);
 }
 
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs() {
-  for (const nft of nftCollection) {
+  for (const nft of nftMyAnime) {
     console.log("Name: " + nft.name);
     console.log("Level: " + nft.level);
     console.log("Colour: " + nft.colour);
@@ -37,7 +37,7 @@ function listNFTs() {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-  return nftCollection.length;
+  return nftMyAnime.length;
 }
 
 mintNFT("Goku", "Level 9", "Blue");
